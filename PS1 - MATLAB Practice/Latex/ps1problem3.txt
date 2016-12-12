@@ -1,0 +1,2 @@
+plot(cos([0:0.1:2*pi]), sin(sin(3 * [0:0.1:2*pi])))
+diary off

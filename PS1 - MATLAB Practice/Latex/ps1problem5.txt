@@ -1,0 +1,8 @@
+x = [-4:0.1:4];
+f = 0.5 * x.^2;
+g = 0.5 + exp(x.^2 / -2);
+set(plot(x,f), 'Color', 'blue')
+hold
+Current plot held
+set(plot(x, g), 'Color', 'red')
+diary off
